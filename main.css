@@ -1,0 +1,59 @@
+h1{
+    
+    text-align: center ;
+}
+input{
+    width: 155px; 
+      height: 20px; 
+    }
+
+#campos-teste{
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;   
+    width: 20%;
+    padding: 10px;
+    
+}
+
+#campoA{
+    margin-bottom: 10px;
+}
+
+.message {
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+
+.message {
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+.certo {
+    background-color: greenyellow;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+.errado {
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 12px;
+    display: none;
+}
+
+button{
+    background-color: green;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+
+}

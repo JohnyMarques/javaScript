@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de validação</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <H1>TESTE DOS CAMPOS A E B</H1>
+    <form id="campos-teste">
+  <p><input id="campoA" type="text" placeholder="Digite o valor do campo A" required></p>
+  <p><input id="campoB" type="text" placeholder="Digite o valor do campo B" required></p>
+  <button type="submit" onclick="verificarValores()">Efetuar teste</button>
+</form>
+<p id="mensagem" class="message"></p>
+<script src="main.js"></script>
+</body>
+</html>
