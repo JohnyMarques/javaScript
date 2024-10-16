@@ -1,15 +1,18 @@
-function verificarValores(){
+function validarCampos() {
+    
+    let campoA = document.getElementById('campoA').value;
+    let campoB = document.getElementById('campoB').value;
+    
+    // Convertendo os valores para números
+    campoA = Number(campoA);
+    campoB = Number(campoB);
+    
 
-let campoA = document.getElementById('campoA').value;
-let campoB = document.getElementById('campoB').value;
-let mensagem = document.getElementById('mensagem');
 
-
-if(campoB > campoA){
-    mensagem.textContent = "Correto! B é maior que A.";
-    mensagem.className = 'message certo'
-}
-else{
-
-}
+    if (campoB > campoA) {
+        document.getElementById('resultado').innerText = "Campo B é maior que o Campo A. Você venceu o teste!";
+    } else {
+        document.getElementById('resultado').innerText = "Campo B não é maior que o Campo A, você falhou no teste.";
+    }
+    
 }

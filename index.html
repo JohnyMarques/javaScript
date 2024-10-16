@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de validação</title>
+    <title>Validação de Campos</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <H1>TESTE DOS CAMPOS A E B</H1>
-    <form id="campos-teste">
-  <p><input id="campoA" type="text" placeholder="Digite o valor do campo A" required></p>
-  <p><input id="campoB" type="text" placeholder="Digite o valor do campo B" required></p>
-  <button type="submit" onclick="verificarValores()">Efetuar teste</button>
-</form>
-<p id="mensagem" class="message"></p>
-<script src="main.js"></script>
+    <form id="meuFormulario">
+        <label for="campoA">Campo A:</label>
+        <input type="number" id="campoA" name="campoA"><br><br>
+        
+        <label for="campoB">Campo B:</label>
+        <input type="number" id="campoB" name="campoB"><br><br>
+
+        <button type="button" onclick="validarCampos()">Validar</button>
+    </form>
+    
+    <p id="resultado"></p>
+
+    <script src="main.js"></script>
 </body>
 </html>

@@ -26,18 +26,16 @@ input{
     margin-top: 10px;
 }
 
-.message {
+.message-sucess {
     font-weight: bold;
     color: red;
     margin-top: 10px;
-}
-.certo {
     background-color: greenyellow;
     padding: 16px;
     color: #fff;
     display: none;
 }
-.errado {
+.message-error {
     padding: 8px;
     background-color: red;
     color: #fff;
