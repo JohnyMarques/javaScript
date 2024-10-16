@@ -10,9 +10,11 @@ function validarCampos() {
 
 
     if (campoB > campoA) {
-        document.getElementById('resultado').innerText = "Campo B é maior que o Campo A. Você venceu o teste!";
+        document.getElementById('resultado').innerText = "VALOR DIGITADO NO CAMPO B É MAIOR QUE O CAMPO A. VOCÊ VENCEU O TESTE!";
+        resultado.style.color = 'green';
     } else {
-        document.getElementById('resultado').innerText = "Campo B não é maior que o Campo A, você falhou no teste.";
+        document.getElementById('resultado').innerText = "VALOR DIGITADO NO CAMPO B NÃO É MAIOR QUE O CAMPO A, VOCÊ FALHOU NO TESTE!";
+        resultado.style.color = 'red';
     }
     
 }
